@@ -1,0 +1,14 @@
+import javax.swing.JOptionPane; 
+
+	public class Final1 { 
+		public static void main (String [] args) { 
+	
+			int mins, minutes, hrs; 
+			JOptionPane.showMessageDialog(null, "Time Calulator"); 
+	
+			minutes = Integer.parseInt(JOptionPane.showInputDialog(null, "Please State Your Minutes")); 
+			hrs = minutes / 60; mins = minutes % 60; 
+	
+			JOptionPane.showMessageDialog(null, "There are " + hrs + " hours " + "and " + mins + " minutes"); 
+	} 
+}
